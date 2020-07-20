@@ -112,7 +112,7 @@ const ColorTemperature = ({ kelvin }) => {
       while (s.length < size) s = `0${s}`;
       return s;
     }
-    return `(${pad(red, 3)},${pad(blue, 3)},${pad(green, 3)})`;
+    return `(${pad(red, 3)},${pad(green, 3)},${pad(blue, 3)})`;
   };
   const buildColor = () => {
     const redn = Number(red);
@@ -177,7 +177,7 @@ const ColorTemperature = ({ kelvin }) => {
       </BlueContainer>
 
       <LabelTemperatureContainer>
-        <label htmlFor="temperature">Temperature</label>
+        <label htmlFor="temperature">Kelvin</label>
       </LabelTemperatureContainer>
 
       <TemperatureContainer>
