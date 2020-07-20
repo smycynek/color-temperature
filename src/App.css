@@ -1,0 +1,28 @@
+#page {
+
+    padding: 10px;
+    margin: 10px;
+  
+}
+#ct {
+  display: grid;
+  width: 100%;
+  height: 550px;
+  grid-template-areas: "swatch swatch"
+                       "code code"
+                       "label_control_red control_red"
+                       "label_control_green control_green"
+                       "label_control_blue control_blue"
+                       "label_control_temperature control_temperature";
+  grid-template-rows: 100px 90px 30px 30px 30px 30px;
+  grid-template-columns: 110px 140px;
+}
+
+.code {
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+.input {
+  
+}
